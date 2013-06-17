@@ -1,0 +1,353 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Atlanta",
+               "short_name" : "Atlanta",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Fulton",
+               "short_name" : "Fulton",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Georgia",
+               "short_name" : "GA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Atlanta, GA, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 33.88761790,
+                  "lng" : -84.2893890
+               },
+               "southwest" : {
+                  "lat" : 33.64780790,
+                  "lng" : -84.55181890
+               }
+            },
+            "location" : {
+               "lat" : 33.74899540,
+               "lng" : -84.38798240
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 33.88761790,
+                  "lng" : -84.2893890
+               },
+               "southwest" : {
+                  "lat" : 33.64780790,
+                  "lng" : -84.55181890
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Atlanta",
+               "short_name" : "Atlanta",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Jackson",
+               "short_name" : "Jackson",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hamilton",
+               "short_name" : "Hamilton",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Indiana",
+               "short_name" : "IN",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Atlanta, IN, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.21795790,
+                  "lng" : -86.0217370
+               },
+               "southwest" : {
+                  "lat" : 40.2062450,
+                  "lng" : -86.03200699999999
+               }
+            },
+            "location" : {
+               "lat" : 40.21531510,
+               "lng" : -86.02637460
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21795790,
+                  "lng" : -86.0217370
+               },
+               "southwest" : {
+                  "lat" : 40.2062450,
+                  "lng" : -86.03200699999999
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Atlanta",
+               "short_name" : "Atlanta",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Cass",
+               "short_name" : "Cass",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Texas",
+               "short_name" : "TX",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Atlanta, TX, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 33.1454960,
+                  "lng" : -94.1232270
+               },
+               "southwest" : {
+                  "lat" : 33.08410390,
+                  "lng" : -94.22965590
+               }
+            },
+            "location" : {
+               "lat" : 33.11374190,
+               "lng" : -94.16435369999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 33.1454960,
+                  "lng" : -94.1232270
+               },
+               "southwest" : {
+                  "lat" : 33.08410390,
+                  "lng" : -94.22965590
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Atlanta",
+               "short_name" : "Atlanta",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Atlanta",
+               "short_name" : "Atlanta",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Logan",
+               "short_name" : "Logan",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Illinois",
+               "short_name" : "IL",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "61723",
+               "short_name" : "61723",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Atlanta, IL 61723, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.27860889999999,
+                  "lng" : -89.21372789999999
+               },
+               "southwest" : {
+                  "lat" : 40.2521360,
+                  "lng" : -89.24337890
+               }
+            },
+            "location" : {
+               "lat" : 40.25948460,
+               "lng" : -89.23342359999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.27860889999999,
+                  "lng" : -89.21372789999999
+               },
+               "southwest" : {
+                  "lat" : 40.2521360,
+                  "lng" : -89.24337890
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Atlanta",
+               "short_name" : "Atlanta",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Industry-Rock Falls",
+               "short_name" : "Industry-Rock Falls",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Phelps",
+               "short_name" : "Phelps",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Nebraska",
+               "short_name" : "NE",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Atlanta, NE, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 40.37177800000001,
+                  "lng" : -99.4672090
+               },
+               "southwest" : {
+                  "lat" : 40.3645670,
+                  "lng" : -99.47910899999999
+               }
+            },
+            "location" : {
+               "lat" : 40.36876070,
+               "lng" : -99.47348210
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.37177800000001,
+                  "lng" : -99.4672090
+               },
+               "southwest" : {
+                  "lat" : 40.3645670,
+                  "lng" : -99.47910899999999
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Atlanta",
+               "short_name" : "Atlanta",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Lyda",
+               "short_name" : "Lyda",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Macon",
+               "short_name" : "Macon",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Missouri",
+               "short_name" : "MO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "63530",
+               "short_name" : "63530",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Atlanta, MO 63530, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 39.9049440,
+                  "lng" : -92.4739690
+               },
+               "southwest" : {
+                  "lat" : 39.89287310,
+                  "lng" : -92.48667990
+               }
+            },
+            "location" : {
+               "lat" : 39.8986460,
+               "lng" : -92.48102080
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 39.9049440,
+                  "lng" : -92.4739690
+               },
+               "southwest" : {
+                  "lat" : 39.89287310,
+                  "lng" : -92.48667990
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

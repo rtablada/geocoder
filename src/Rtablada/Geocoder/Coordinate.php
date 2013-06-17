@@ -14,9 +14,14 @@ class Coordinate
 	 */
 	public $lng;
 
-	public function __construct($lat, $lng)
+	public function __construct($lat = 0, $lng = 0)
 	{
 		$this->lat = $lat;
 		$this->lng = $lng;
+	}
+
+	public function newInstance($lat, $lng)
+	{
+		return new static($lat, $lng);
 	}
 }

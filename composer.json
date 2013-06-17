@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "rtablada/slim-post": "dev-master",
+        "shuber/curl": "dev-master",
         "illuminate/support": "4.0.x"
     },
     "require-dev": {
