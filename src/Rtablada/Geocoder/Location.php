@@ -16,6 +16,7 @@ class Location
 
 	public function __construct($address = null, Coordinate $coordinates = null)
 	{
+		$this->address = $address;
 		$this->coordinates = $coordinates ?: new Coordinate;
 	}
 
@@ -25,9 +26,13 @@ class Location
 		$this->coordinates->lng = $lng;
 	}
 
-	public function newLocationFromObject($obj)
+	public function newInstanceFromObject($obj)
 	{
 		$coordinates = $obj->geometry->location;
 		$coordinates = $this->coordinates->newInstance($coordinates->lat, $coordinates->lng);
+
+
+
+		return new static($obj->formatted_address, $coordinates);
 	}
 }

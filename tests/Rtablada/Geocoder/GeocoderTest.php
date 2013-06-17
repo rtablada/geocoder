@@ -13,7 +13,7 @@ class GeocoderTest extends \PHPUnit_Framework_Testcase
 
 	public function setup()
 	{
-		$this->coordinateResult = new Coordinate(33.748995, -84.387982);
+		$this->coordinateResult = new Coordinate(33.74899540, -84.38798240);
 		$this->locationResult = new Location('Atlanta, GA, USA', $this->coordinateResult);
 
 		$this->curl = m::mock('Curl');
@@ -27,7 +27,7 @@ class GeocoderTest extends \PHPUnit_Framework_Testcase
 			->once()
 			->andReturn($this->response);
 
-		$this->location->shouldReceive('newLocationFromObject')
+		$this->location->shouldReceive('newInstanceFromObject')
 			->with(m::type('StdClass'))
 			->once()
 			->andReturn($this->locationResult);

@@ -33,6 +33,6 @@ class Geocoder
 
 		$response = json_decode($response->body);
 
-		return $this->location->newLocationFromObject($response->results[0]);
+		return $this->location->newInstanceFromObject($response->results[0]);
 	}
 }
