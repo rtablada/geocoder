@@ -12,6 +12,9 @@
         "rtablada/slim-post": "dev-master",
         "illuminate/support": "4.0.x"
     },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
     "autoload": {
         "psr-0": {
             "Rtablada\\Geocoder": "src/"
