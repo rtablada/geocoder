@@ -27,6 +27,11 @@ class GeocoderTest extends \PHPUnit_Framework_Testcase
 			->once()
 			->andReturn($this->response);
 
+		$this->location->shouldReceive('newLocationFromObject')
+			->with(m::type('StdClass'))
+			->once()
+			->andReturn($this->locationResult);
+
 		$this->geocoder = new Geocoder($this->curl, $this->location);
 	}
 
@@ -34,7 +39,7 @@ class GeocoderTest extends \PHPUnit_Framework_Testcase
 	{
 		$result = $this->geocoder->getCoordinatesFromQuery($this->query);
 
-		// $this->assertEquals($this->coordinateResult, $result);
+		$this->assertEquals($this->coordinateResult, $result);
 	}
 
 	public function testGetLocationFromQuery()

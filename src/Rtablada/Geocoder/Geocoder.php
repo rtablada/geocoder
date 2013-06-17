@@ -19,7 +19,7 @@ class Geocoder
 
 	public function getCoordinatesFromQuery($query)
 	{
-		return $this->getLocationFromQuery($query);
+		return $this->getLocationFromQuery($query)->coordinates;
 	}
 
 	public function getLocationFromQuery($query)
