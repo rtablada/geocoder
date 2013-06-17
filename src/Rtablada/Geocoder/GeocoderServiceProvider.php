@@ -18,7 +18,13 @@ class GeocoderServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app['geocoder'] = $this->app->share(function($app)
+        {
+            $location = new Location;
+            $curl = new \Curl;
+
+            return new Geocoder($curl, $location);
+        });
 	}
 
 	/**
@@ -28,7 +34,7 @@ class GeocoderServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return array('geocoder');
 	}
 
 }
