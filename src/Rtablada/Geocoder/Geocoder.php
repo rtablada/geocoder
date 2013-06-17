@@ -35,4 +35,16 @@ class Geocoder
 
 		return $this->location->newInstanceFromObject($response->results[0]);
 	}
+
+	public function getSearchSquare(Coordinate $coordinates, $radius)
+	{
+		$searchSquare = array();
+		$searchSquare['lat'][] = $coordinates->lat - $radius / 69.01;
+		$searchSquare['lat'][] = $coordinates->lat + $radius / 69.01;
+
+		$searchSquare['lng'][] = $coordinates->lng - ($radius / ( 69.172 * cos($coordinates->lat * 0.0174533)));
+		$searchSquare['lng'][] = $coordinates->lng + ($radius / ( 69.172 * cos($coordinates->lat * 0.0174533)));
+
+		return $searchSquare;
+	}
 }
