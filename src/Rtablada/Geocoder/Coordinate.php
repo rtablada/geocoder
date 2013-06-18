@@ -20,7 +20,7 @@ class Coordinate
 		$this->lng = $lng;
 	}
 
-	public function newInstance($lat, $lng)
+	public function newInstance($lat = null, $lng = null)
 	{
 		return new static($lat, $lng);
 	}
