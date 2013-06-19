@@ -1,6 +1,6 @@
 <?php namespace Rtablada\Geocoder\Facades;
 
-Illuminate\Support\Facades\Facade;
+use Illuminate\Support\Facades\Facade;
 
 class Geocoder extends Facade {
 
