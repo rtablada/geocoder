@@ -26,10 +26,28 @@ var_dump($geocoder->getLocationFromQuery('Atlanta'));
 
 The geocoder provides the following functions
 
-Function				| Arguments							| Description
-getLocationFromQuery	| string Query						| Returns a Location Object from the google geocode API
-getCoordinatesFromQuery	| string Query						| Returns a Coordinates Object from the google geocode API
-getSearchSquare			| Coordinate center, number radius	| Returns an array with the corners of a sqare around the centerpoint with a radius in miles
+<table>
+	<tr>
+		<th>Function</th>
+		<th>Arguments</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>getLocationFromQuery</td>
+		<td>string Query</td>
+		<td>Returns a Location Object from the google geocode API</td>
+	</tr>
+	<tr>
+		<td>getCoordinatesFromQuery</td>
+		<td>string Query</td>
+		<td>Returns a Coordinates Object from the google geocode API</td>
+	</tr>
+	<tr>
+		<td>getSearchSquare</td>
+		<td>Coordinate center, number radius</td>
+		<td>Returns an array with the corners of a sqare around the centerpoint with a radius in miles</td>
+	</tr>
+</table>
 
 
 # Other Provided Classes
