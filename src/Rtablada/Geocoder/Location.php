@@ -33,16 +33,16 @@ class Location
 		return new static($obj->formatted_address, $coordinates);
 	}
 
-	public function newInstace($attributes = null)
+	public function newInstance($attributes = null)
 	{
 		if (!$attributes) {
 			return new static;
 		}
 
 		if (isset($attributes['lat']) && isset($attributes['lng'])) {
-			$coordinates = $this->coordinates->newInstace($attributes['lat'], $attributes['lng']);
+			$coordinates = $this->coordinates->newInstance($attributes['lat'], $attributes['lng']);
 		} else {
-			$coordinates = $this->coordinates->newInstace();
+			$coordinates = $this->coordinates->newInstance();
 		}
 
 		if (isset($attributes['address'])) {
