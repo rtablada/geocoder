@@ -39,7 +39,7 @@ class Location
 			return new static;
 		}
 
-		if (isset($attributes['lat'] && $attributes['lng'])) {
+		if (isset($attributes['lat']) && isset($attributes['lng'])) {
 			$coordinates = $this->coordinates->newInstace($attributes['lat'], $attributes['lng']);
 		} else {
 			$coordinates = $this->coordinates->newInstace();
