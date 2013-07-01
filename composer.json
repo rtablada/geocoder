@@ -1,6 +1,10 @@
 {
     "name": "rtablada/geocoder",
-    "description": "",
+    "description": "A slim Google Geocoder for PHP and Laravel",
+    "keywords": [
+        "laravel",
+        "lpm"
+    ],
     "authors": [
         {
             "name": "Ryan Tablada",
